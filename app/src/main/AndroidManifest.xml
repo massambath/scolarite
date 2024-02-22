@@ -13,20 +13,8 @@
         android:theme="@style/Theme.Scolarite"
         tools:targetApi="31">
         <activity
-            android:name=".ListeEtudiantActivity"
-            android:exported="false" />
-        <activity
-            android:name=".InscriptionActivity"
-            android:exported="false" />
-        <activity
             android:name=".HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
             android:theme="@style/Theme.Scolarite">
             <intent-filter>
@@ -35,6 +23,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".InscriptionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListeEtudiantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

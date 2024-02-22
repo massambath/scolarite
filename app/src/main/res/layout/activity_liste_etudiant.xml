@@ -7,29 +7,29 @@
     tools:context=".ListeEtudiantActivity">
 
 
-<LinearLayout
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_centerInParent="true"
-android:orientation="vertical"
-android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="20dp">
 
-<TextView
-    android:layout_width="359dp"
-    android:layout_height="wrap_content"
-    android:hint="Liste des Etudiants"
-    android:textSize="32sp"
-    android:gravity="center"
-    android:textStyle="bold"/>
+        <TextView
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:hint="Liste des Etudiants"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
 
-<Button
-    android:id="@+id/buttonBack"
-    android:layout_width="162dp"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/buttonSignup"
-    android:layout_alignParentRight="true"
-    android:layout_marginTop="17dp"
-    android:text="Retour" />
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonSignup"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17dp"
+            android:text="Retour" />
 
-</LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

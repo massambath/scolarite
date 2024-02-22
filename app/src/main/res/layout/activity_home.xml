@@ -7,32 +7,32 @@
     tools:context=".HomeActivity">
 
 
-<LinearLayout
-android:layout_width="358dp"
-android:layout_height="408dp"
-android:layout_centerInParent="true"
-android:orientation="vertical"
-android:padding="16dp"
-tools:layout_editor_absoluteX="26dp"
-tools:layout_editor_absoluteY="161dp">
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="408dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="161dp">
 
-<Button
-    android:id="@+id/buttonInscription"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="16dp"
-    android:background="#3498db"
-    android:text="Inscription"
-    android:textColor="#ffffff"
-    android:textSize="18sp" />
+        <Button
+            android:id="@+id/buttonInscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#3498db"
+            android:text="Inscription"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/buttonVisualisation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#2ecc71"
-        android:text="Visualisation"
-        android:textColor="#ffffff"
-        android:textSize="18sp" />
-</LinearLayout>
+        <Button
+            android:id="@+id/buttonVisualisation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2ecc71"
+            android:text="Visualisation"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
